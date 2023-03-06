@@ -10,7 +10,5 @@ for a in arr:
     if count >= a:
         result += 1
         count = 0
-    else:
-        pass
 
 print(result)
