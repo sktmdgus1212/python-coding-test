@@ -1,5 +1,4 @@
 from collections import deque
-import sys
 
 def bfs(i,j):
     que = deque([[i, j]])
