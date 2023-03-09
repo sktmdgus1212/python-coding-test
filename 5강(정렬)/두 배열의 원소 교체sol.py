@@ -1,0 +1,18 @@
+# 최대 k 번임에 유의
+n, k = map(int, input().split(" "))
+
+a = list(map(int, input().split(" ")))
+b = list(map(int, input().split(" ")))
+
+a.sort()
+b.sort(reverse=True)
+
+
+
+for i in range(k):
+    if a[i] < b[i]:
+        a[i], b[i] = b[i], a[i]
+    else:
+        break
+    
+print(sum(a))
