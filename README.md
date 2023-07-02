@@ -1,2 +1,5 @@
 # python-coding-test
-ì´ì½”í…Œ ì½”ë”©í…ŒìŠ¤íŠ¸ ê°•ì¢Œ í•™ìŠµ
+
+1. ÀÌÄÚÅ× ÄÚµùÅ×½ºÆ® °­ÁÂ ÇĞ½À(https://www.youtube.com/playlist?list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC)
+
+2. ÄÚµùÅ×½ºÆ®¸¦ À§ÇÑ ¹éÁØ ¹®Á¦ ÃßÃµ(https://covenant.tistory.com/224)
