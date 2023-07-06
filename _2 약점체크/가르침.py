@@ -13,12 +13,15 @@ arr = [set(input())-{'a','n','t','i','c'} for _ in range(n)]
 #         new_word += w
 #     arr.append(new_word)
 
-print(arr)
 if k < 5:
     print(0)
 else:
     k = k - 5
     ans = 0
+    before_ans = 0
+    for a in arr:
+        if not a:
+            before_ans += 1
     # 1. 단어 추가
     new_alpha = set()
     for a in arr:
@@ -35,4 +38,4 @@ else:
                     temp += 1
             
             ans = max(ans, temp)
-        print(ans)
+        print(ans+before_ans)
