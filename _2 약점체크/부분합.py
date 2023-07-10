@@ -5,14 +5,14 @@ value = arr[0]
 j = 1
 i = 0
 
-print(arr)
+#print(arr)
 while i < len(arr):
     while value < s and j < len(arr):
         value += arr[j]
         j += 1
 
     while value >= s:
-        print(value, i, j, arr[i:j])
+        #print(value, i, j, arr[i:j])
         ans = min(ans, j-i)
         value -= arr[i]
         i += 1
