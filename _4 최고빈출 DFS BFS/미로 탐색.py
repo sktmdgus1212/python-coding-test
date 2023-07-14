@@ -16,7 +16,7 @@ visited[0][0] = 1
 ans = 10001
 while que:
     i, j, count= que.popleft()
-    print(i, j, count)
+    #print(i, j, count)
     if i == n-1 and j == m-1:
         ans = min(ans, count)
     for k in range(4):
