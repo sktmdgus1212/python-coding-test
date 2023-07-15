@@ -39,4 +39,3 @@ visited = [0 for _ in range(n+1)]
 visited[v] = 1
 bfs(v)
 
-tn
