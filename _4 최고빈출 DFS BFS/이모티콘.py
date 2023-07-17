@@ -24,6 +24,5 @@ ans = 1001
 for i in range(n+1):
     if arr[n][i] == -1:
         continue
-    print(arr[n][i])
     ans = min(ans, arr[n][i])
 print(ans)
