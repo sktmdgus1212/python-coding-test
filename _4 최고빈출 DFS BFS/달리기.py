@@ -33,7 +33,7 @@ while que:
             cur_y = cur_y + dy[k]
             
             #print("*", cur_x, dx[k], cur_y, dy[k], k)
-            if cur_x<0 or cur_x>=n or cur_y<0 or cur_y>=n: 
+            if cur_x<0 or cur_x>=n or cur_y<0 or cur_y>=m: 
                 break
             if arr[cur_x][cur_y] == "#":
                 break
