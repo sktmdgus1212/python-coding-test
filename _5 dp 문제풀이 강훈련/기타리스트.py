@@ -15,7 +15,6 @@ for i in range(n):
             if j - arr[i] >= 0:
                 dp[i+1][j-arr[i]] = 1
 
-print(dp)
 for i in range(m, -1, -1):
     if dp[n][i] == 1:
         print(i)
