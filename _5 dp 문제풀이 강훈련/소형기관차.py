@@ -9,7 +9,7 @@ val = 0
 for a in arr:
     val += a
     s.append(val)
-print(s)
+#print(s)
 
 for i in range(1, 4):
     for j in range(i * train, len(dp[i])):
@@ -19,4 +19,4 @@ for i in range(1, 4):
             dp[i][j] = max(dp[i][j-1], dp[i-1][j-train] + s[j] - s[j-train])
 
 print(dp[3][n])
-print(dp)
+#print(dp)
