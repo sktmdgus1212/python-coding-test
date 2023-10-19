@@ -8,7 +8,7 @@ arr.append(0)
 arr.append(0)
 
 dp = [[[0] * 61 for j in range(61)] for i in range(61)]
-#dp[arr[0]][arr[1]][arr[2]] = 1
+dp[arr[0]][arr[1]][arr[2]] = 1
 
 for i in range(60, -1, -1):
     for j in range(60, -1, -1):
@@ -30,5 +30,5 @@ for i in range(60, -1, -1):
                     if dp[i_][j_][k_] == 0 or dp[i][j][k] + 1 < dp[i_][j_][k_]:
                         dp[i_][j_][k_] = dp[i][j][k] + 1
 
-print(dp)
-print(dp[0][0][0])
+#print(dp)
+print(dp[0][0][0]-1)
