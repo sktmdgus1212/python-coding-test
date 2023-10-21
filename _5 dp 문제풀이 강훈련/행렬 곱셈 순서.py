@@ -4,8 +4,7 @@ n = int(sys.stdin.readline())
 
 arr = []
 for _ in range(n):
-    x, y = map(int, sys.stdin.readline().rstrip().split())
-    arr.append([x, y])
+    arr.append(list(map(int, sys.stdin.readline().rstrip().split())))
 
 dp = [[0]* n for _ in range(n)]
 
