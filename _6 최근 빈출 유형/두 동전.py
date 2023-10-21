@@ -13,7 +13,7 @@ for i in range(n):
             z.append(j)    
     arr.append(a)
 
-que = deque([[z[0], z[1], z[2], z[3], 0]])
+que = deque([[z[0], z[1], z[2], z[3], 1]])
 dx = [-1, 0, 1, 0]
 dy = [0, 1, 0, -1]
 #visited = [[False for _ in range(m)] for _ in range(n)]
