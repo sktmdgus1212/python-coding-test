@@ -13,7 +13,7 @@ for i in range(1, len(arr)):
     else:
         name = val
     
-    print("name and val: ", name, remainder)
+    #print("name and val: ", name, remainder)
     if remainder == "":
         ans.append(str(arr[0]+ " "+ name+";"))
     else:
@@ -29,7 +29,7 @@ for i in range(1, len(arr)):
         reverse_remainder =""
         for k in range(len(remainder_list)-1, -1, -1):
             reverse_remainder += remainder_list[k]   
-        print("reverse", reverse_remainder)
+        #print("reverse", reverse_remainder)
         ans.append(str(arr[0]+reverse_remainder+" "+name+";")) 
 for a in ans:
     print(a)
